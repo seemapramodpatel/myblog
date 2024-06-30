@@ -26,7 +26,12 @@ SECRET_KEY = 'django-insecure-v$ds-pubp8o)3mq4n$s^zt7s(rg6s+@k5wac8!&e5lir1i10i@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['.vercel.app']
+=======
+ALLOWED_HOSTS = []
+
+>>>>>>> parent of c1f84eb (added configuration for vercel)
 
 # Application definition
 
@@ -124,7 +129,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of c1f84eb (added configuration for vercel)
 
 MEDIA_URL = 'media/'
 

@@ -23,10 +23,12 @@ from django.conf import settings
 urlpatterns =  [
                     path('admin/', admin.site.urls),
                     path('', include('blog.urls'))
-        
                 ] + static(settings.MEDIA_URL, document_root= settings.MEDIA_ROOT)
 
 
 #                    path('tinymce/' , include('tinymce.urls')),
 
+<<<<<<< HEAD
  
+=======
+>>>>>>> parent of c1f84eb (added configuration for vercel)
